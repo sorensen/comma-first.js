@@ -39,9 +39,11 @@ describe('comma-first ' + info.version, function() {
 
   })
 
-  it('package.json format', function() {
-    var fs = require('fs')
-    var str = commaFirst(info)
-    fs.writeFileSync(__dirname + '/package.json', str, 'utf8')
-  })
+  // `cut-release` module keeps winning this battle
+  //
+  // it('package.json format', function() {
+  //   var fs = require('fs')
+  //   var str = commaFirst(info)
+  //   fs.writeFileSync(__dirname + '/package.json', str, 'utf8')
+  // })
 })

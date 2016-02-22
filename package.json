@@ -1,25 +1,25 @@
 {
-  "name": "comma-first"
-, "author": "Beau Sorensen <mail@beausorensen.com> (http://github.com/sorensen)"
-, "version": "0.0.0"
-, "license": "MIT"
-, "keywords": [
-    "json"
-  , "format"
-  ]
-, "description": "Format objects into a comma-first JSON string"
-, "repository": {
-    "type": "git"
-  , "url": "git://github.com/majorleaguesoccer/comma-first.git"
-  }
-, "main": "index.js"
-, "scripts": {
-    "hint": "./node_modules/.bin/jshint ./"
-  , "test": "npm run hint && ./node_modules/.bin/_mocha -R spec test.js"
-  }
-, "devDependencies": {
-    "debug": "^2.2.0"
-  , "jshint": "^2.8.0"
-  , "mocha": "^2.1.0"
+  "name": "comma-first",
+  "author": "Beau Sorensen <mail@beausorensen.com> (http://github.com/sorensen)",
+  "version": "0.0.1",
+  "license": "MIT",
+  "keywords": [
+    "json",
+    "format"
+  ],
+  "description": "Format objects into a comma-first JSON string",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/majorleaguesoccer/comma-first.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "hint": "./node_modules/.bin/jshint ./",
+    "test": "npm run hint && ./node_modules/.bin/_mocha -R spec test.js"
+  },
+  "devDependencies": {
+    "debug": "^2.2.0",
+    "jshint": "^2.8.0",
+    "mocha": "^2.1.0"
   }
 }
